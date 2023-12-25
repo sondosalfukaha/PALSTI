@@ -1161,6 +1161,12 @@ footer a:hover {
 }
 /*Start Media Query*/
 @media (max-width:477px) {
+        .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: baseline;
+    }
     /*Cart page*/
     #cart-add {
         flex-direction: column;
