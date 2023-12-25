@@ -1181,24 +1181,21 @@ footer a:hover {
 }
 @media (max-width:799px) {
     .map iframe {
-        width: 300px !important;
+        width: 350px !important;
     }
     .contact_section button {
         margin-bottom: 20px;
     }
-    .contact_section input {
+    .contact_section .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+        .contact_section input {
         width: 300px;
-        border: none;
-        height: 50px;
-        margin-bottom: 25px;
-        padding-left: 25px;
-        background-color: #ffffff;
-        outline: none;
-        color: #ffffff;
-        -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
-                box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
       }
-     .blog {
+        .blog {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
