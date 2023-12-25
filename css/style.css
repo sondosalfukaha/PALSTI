@@ -387,7 +387,7 @@ div span.shop {
     text-align: center;
     width: 100%;
     height: calc(30vh + 40px);
-    background-image: url("../img/Keffiah.jpg");
+    background-image: url("/img/Keffiah.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% calc(30vh + 40px);
