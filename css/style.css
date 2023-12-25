@@ -1174,6 +1174,33 @@ footer a:hover {
     }
 }
 @media (max-width:799px) {
+     .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .blog .blog-pre {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: px;
+        transition: 0.3s all ease;
+        -webkit-transition: 0.3s all ease;
+        -moz-transition: 0.3s all ease;
+        -ms-transition: 0.3s all ease;
+        -o-transition: 0.3s all ease;
+    }
+    .blog .blog-pre .content {
+        text-align: center;
+    }
+    .blog .blog-pre .image {
+        display: flex;
+        justify-content: center;
+    }
     footer {
         flex-direction: column;
     flex-wrap: wrap;
